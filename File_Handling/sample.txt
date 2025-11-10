@@ -1,0 +1,2 @@
+This INSERTED ended line.
+Appending another line.
