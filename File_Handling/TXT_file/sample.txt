@@ -1,2 +1,4 @@
 This INSERTED ended line.
 Appending another line.
+This is an appended line.
+Appending another line.
