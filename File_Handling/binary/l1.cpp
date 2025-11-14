@@ -8,7 +8,7 @@ int main()
     int a = 10, b;
     file.write(reinterpret_cast<char *>(&a), 4);
     file.seekg(0, ios::beg);
-    file.read(reinterpret_cast<char *>(&b), 4);
+    file.read(reinterpret_cast<char *>(&b), 04);
     cout << b;
     return 0;
-}
+}4
