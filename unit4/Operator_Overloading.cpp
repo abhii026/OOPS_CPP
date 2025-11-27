@@ -13,12 +13,17 @@ public:
     {
         return x + k;
     }
+    int operator-(Test &obj)
+    {
+        return x - obj.x;
+    }
 };
 int main()
 {
     int a = 10, b = 20;
     cout << a + b << endl;
-    Test p(10), q(20);
-    cout << p + 10 << endl;
+    Test p(20), q(20);
+    cout << p + q << endl;
+    cout << p - q << endl;
     return 0;
 }
