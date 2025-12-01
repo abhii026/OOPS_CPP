@@ -156,4 +156,4 @@ Binary operator overloading
 
 Basic type → Class type
 
-Class type → Basic type
+Class type → Basic type.
