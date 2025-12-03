@@ -24,7 +24,3 @@ int main()
     ptr->print();
     return 0;
 }
-
-
-
-C:/Users/iabhi/OneDrive/Desktop/coding/OOPS_CPP
