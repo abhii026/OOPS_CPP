@@ -15,13 +15,15 @@ public:
 };
 class B : public A
 {
-    public:
-        void print(){
-            cout<<y<<" "<<x;
-        }
+public:
+    void print()
+    {
+        cout << y;
+    }
 };
 int main()
 {
-
+    B b;
+    b.show();
     return 0;
 }
