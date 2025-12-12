@@ -27,6 +27,7 @@ int main()
 {
 
     
+    
 
     A *ptr_A = new B();
     delete ptr_A;
