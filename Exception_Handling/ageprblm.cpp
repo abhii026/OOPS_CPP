@@ -26,6 +26,10 @@ int main()
     {
         cout << "Age can not be Negative. " << endl;
     }
+    catch (...)
+    {
+        cout << "Something wrong." << endl;
+    }
     cout << "Done.";
     return 0;
 }
