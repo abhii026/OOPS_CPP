@@ -9,17 +9,23 @@ int main()
         cin >> age;
         if (age < 0)
         {
-            throw "Age can not be Negative.";
+            // throw "Age can not be Negative.";
+            throw -1;
         }
-        else if(age<18){
+        else if (age < 18)
+        {
             throw "Under age.";
         }
-        cout<<"Eligible"<<endl;
+        cout << "Eligible" << endl;
     }
     catch (const char *e)
     {
         cout << "Caught an exception: " << e << endl;
     }
-    cout<<"Done.";
+    catch (int x)
+    {
+        cout << "Age can not be Negative. " << endl;
+    }
+    cout << "Done.";
     return 0;
 }
