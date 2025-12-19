@@ -14,7 +14,7 @@ int main()
         else if(age<18){
             throw "Under age.";
         }
-        cout<<"Eligible";
+        cout<<"Eligible"<<endl;
     }
     catch (const char *e)
     {
