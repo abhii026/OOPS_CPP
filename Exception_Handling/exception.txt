@@ -1,0 +1,18 @@
+<exception>
+   |
+   +-- std::exception
+          |
+          +-- logic_error
+          |      |
+          |      +-- invalid_argument
+          |      +-- out_of_range
+          |      +-- length_error
+          |      +-- domain_error
+          |
+          +-- runtime_error
+          |      |
+          |      +-- overflow_error
+          |      +-- underflow_error
+          |      +-- range_error
+          |
+          +-- bad_alloc
