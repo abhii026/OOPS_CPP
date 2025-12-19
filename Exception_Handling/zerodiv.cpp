@@ -14,5 +14,6 @@ int main(){
     catch(const char* e){
         cout << "Caught an exception: " << e << endl;
     }
+    cout<<"Program completed successfully."<<endl;
     return 0;
 }
