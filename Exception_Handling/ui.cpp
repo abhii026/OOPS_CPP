@@ -14,8 +14,9 @@ int main()
         }
         else if (n < 0)
         {
-            throw true;
+            throw false;
         }
+        cout << "Value is " << n << endl;
     }
     catch (int i)
     {
